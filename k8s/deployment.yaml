@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: product-service-app
-          image: alexubuntu227/productservice
+          image: IMAGE_URL/productservice
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
